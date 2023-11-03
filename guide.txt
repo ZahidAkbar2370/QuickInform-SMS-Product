@@ -1,0 +1,6 @@
+create project:
+composer create-project laravel/laravel ProjectName
+
+run:
+1: localhost/projectname/public
+2: command : php artisan serve
