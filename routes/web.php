@@ -12,7 +12,7 @@ Route::get('error', function () {
 Route::prefix('backend')->middleware(['auth','checkSubscription'])->group(function () {
 
     Route::get('/', function () {
-        return view('Admin.admin_layout');
+        return view('Backend.admin_layout');
     });
 
     Route::resource('classes', 'App\Http\Controllers\Backend\ClassController');
